@@ -1,3 +1,4 @@
+
  /* Inter – lokal eingebunden */
 @font-face {
     font-family: "Inter";
@@ -32,6 +33,7 @@
 }
 
 /* Allgemein */
+
 body {
     margin: 0;
     font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -40,8 +42,8 @@ body {
 /* Kopfbereich */
 .header {
     height: 3.5cm;
-    background-color: #003366;
-    color: white;
+    background-color: #1F2A44;
+    color: #F5F2EB;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -87,7 +89,7 @@ body {
     position: sticky;
     top: 0;
     height: 1cm;
-    background-color: #0055aa;
+    background-color: #3A4A6B;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,24 +107,35 @@ body {
 .navigation a {
     font-weight: 600;
     letter-spacing: 0.04em;
-    color: white;
+    color: #F5F2EB;
     text-decoration: none;
     font-weight: bold;
     padding: 5px 10px;
     transition: background-color 0.3s, color 0.3s;
 }
 
+a {
+  color: #2F3E5C;
+  text-decoration: none;  
+}
+
 .navigation a:hover,
 .navigation a.active {
-    color: #99ccee;
+    color: #7C8EB3;
 }
 
 /* Inhalt */
 /* Content Rows */
+
+main.content {
+    background-color: #F5F2EB;
+    min-height: calc(100vh - 200px);
+}
+
 .content {
     padding: 40px;
-    background-color: white;
-    color: #0055aa;
+    background-color: #F5F2EB;
+    color: #2F3E5C;
     margin-top: 0;
 }
 
@@ -162,14 +175,14 @@ body {
 .content-row figcaption {
     margin-top: 8px;
     font-size: 0.9em;
-    color: #336699;
+    color: #2F3E5C;
 }
 
 /* Training Tabelle */
 .training-table {
     border-collapse: collapse;
     margin-top: 15px;
-    color: #0055aa;
+    color: #2F3E5C;
 }
 
 .training-table td {
@@ -194,7 +207,7 @@ body {
 .impressum-table {
     border-collapse: collapse;
     margin-top: 30px;
-    color: #0055aa;
+    color: #2F3E5C;
 }
 
 .impressum-table td {
@@ -221,8 +234,8 @@ body {
     left: 0;
     width: 100%;
     min-height: 1cm;
-    background-color: #003366;
-    color: white;
+    background-color: #2F3E5C;
+    color: #F5F2EB;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -232,21 +245,21 @@ body {
 
 
 .footer-center {
-    color: #ffffff;
+    color: #F5F2EB;
     font-size: 0.9em;
     text-align: center;
     flex: 1; /* nimmt Platz zwischen den Links ein */
 }
 
 .footer a {
-    color: white;
+    color: #F5F2EB;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 .footer a:hover,
 .footer a.active {
-    color: #99ccee;
+    color: #7C8EB3;
 }
 
 /* =========================
